@@ -1,4 +1,5 @@
-#Matriz de bidimensional 3x3
+#Programa para encontrar un valor de la matriz
+#Matriz bidimensional 3x3
 
 Numeros_pares= [[2,4,6],
                 [8,10,12],
