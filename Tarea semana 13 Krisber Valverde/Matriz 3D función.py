@@ -132,4 +132,4 @@ for i, ciudad in enumerate(matriz_de_temperaturas):
     print (f"\nEn {Ciudades[i]}")
     for j, semana in enumerate(ciudad):
         promedios_temperaturas=promedio_temperaturas(semana)
-        print(f"Para la semana{j + 1}: el promedio de temperaturas es {promedios_temperaturas:.2f}°C")
+        print(f"Para la semana {j + 1}: el promedio de temperaturas es {promedios_temperaturas:.2f}°C")
