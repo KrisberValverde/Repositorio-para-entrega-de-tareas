@@ -9,7 +9,6 @@ def ordenar_matriz(Numeros_impares):
     return Matriz_ordenada
 
 #Matriz bidimensional 3x3
-
 Numeros_impares= [[17,19,21],
                   [11,13,15],
                   [3,7,9],
