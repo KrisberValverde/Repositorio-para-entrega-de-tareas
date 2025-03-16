@@ -1,10 +1,4 @@
 #Programa para ordenar la matriz
-#Matriz bidimensional 3x3
-
-Numeros_impares= [[17,19,21],
-                  [11,13,15],
-                  [3,7,9],
-                  ]
 
 def ordenar_matriz(Numeros_impares):
     filas= len(Numeros_impares)
@@ -13,6 +7,13 @@ def ordenar_matriz(Numeros_impares):
     lista.sort()
     Matriz_ordenada= [lista [i * columnas:(i+1) * columnas] for i in range(filas)]
     return Matriz_ordenada
+
+#Matriz bidimensional 3x3
+
+Numeros_impares= [[17,19,21],
+                  [11,13,15],
+                  [3,7,9],
+                  ]
 
 #Imprimir la matriz original
 print ("La matriz original es:")
